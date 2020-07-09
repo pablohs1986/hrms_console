@@ -253,6 +253,7 @@ public class Opcion {
                 }
                 stmt.close();
                 
+                sc.nextLine();
                 System.out.println("Do you want to update another employee? (Y/N)");
                 String preguntaSalida = sc.nextLine();
                 if (preguntaSalida.equalsIgnoreCase("N")){
