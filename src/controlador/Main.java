@@ -73,8 +73,12 @@ public class Main {
                                 opcion.enterParaVolver();
                                 break;
                             case 6:
+                                opcion.actualizarEmple();
+                                opcion.enterParaVolver();
                                 break;
                             case 7:
+                                opcion.eliminarEmple();
+                                opcion.enterParaVolver();
                                 break;
                             case 0:
                                 break;
